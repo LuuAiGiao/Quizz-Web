@@ -1,0 +1,711 @@
+[{
+    "id": 1,
+    "title": "General Knowledge Quiz",
+    "password": "7175~",
+    "description": null,
+    "lsQuizz": [
+      {
+        "content": "Which of these is not a group of four?",
+        "id": 1,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "The Scooby-Doo Gang",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "The Beatles",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "The Ghostbusters",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "The Teenage Mutant Ninja Turtles",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Who, out of the following list of British royals, is the furthest away from the throne?",
+        "id": 2,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Prince Harry",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Prince Louis",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Prince William",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Princess Charlotte",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Which continent is largest?",
+        "id": 3,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Africa",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Antarctica",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Asia",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "North America",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Which of these movies did not have a remake?",
+        "id": 4,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "A Star Is Born",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "The Wizard of Oz",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Dinner for Schmucks",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Fried Green Tomatoes",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "What is the capital of Switzerland?",
+        "id": 5,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Bern",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Sparta",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Turin",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Nice",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }, {
+    "id": 2,
+    "title": "Which of the following films was directed by James Cameron?",
+    "password": "2649Uo",
+    "description": "Latchmore",
+    "lsQuizz": [
+      {
+        "content": "Bent",
+        "id": 1,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Schindler's List",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Big Fish",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Titanic",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Marvel's the Avengers",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "What is the chemical symbol for potassium?",
+        "id": 2,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "T",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "L",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "P",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "K",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Which of these songs was not released in the 1990s?",
+        "id": 3,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Genie in a Bottle by Christina Aguilera",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Wonderwall by Oasis",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Barbie Girl by Aqua",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Oops... I Did It Again by Britney Spears",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Which of the following famous women was an aviator?",
+        "id": 4,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Hatshepsut",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Queen Victoria",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Amelia Earhart",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Florence Nightingale",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Who is the Greek goddess of agriculture?",
+        "id": 5,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Artemis",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Iris",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Athena",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Demeter",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }, {
+    "id": 3,
+    "title": "Which of these men is not an ex of Taylor Swift?",
+    "password": "9101DZHS",
+    "description": "Eilhermann",
+    "lsQuizz": [
+      {
+        "content": "Windy Day (Tuulinen päivä)",
+        "id": 1,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Tom Hiddleston",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Joe Jonas",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Calvin Harris",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Zayn Malik",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Rules of Engagement",
+        "id": 2,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Hangin' with the Homeboys",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Cinderella III: A Twist in Time",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Wu yen",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Kidulthood",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Chartreuse is a color most closely related to:",
+        "id": 3,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Brown",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Red",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Green",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Gray",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Babylon 5: The Legend of the Rangers: To Live and Die in Starlight",
+        "id": 4,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "One Little Indian",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Ambition",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "The Duke of Burgundy",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Reconstruction (Anaparastasi)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Man of Marble (Czlowiek z Marmuru)",
+        "id": 5,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Elia Kazan: A Director's Journey",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Back to School",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Madhouse",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Zandalee",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }, {
+    "id": 4,
+    "title": "Good Man, A (Un buen hombre)",
+    "password": "32106F",
+    "description": "Bernardot",
+    "lsQuizz": [
+      {
+        "content": "Hysteria: The Def Leppard Story",
+        "id": 1,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Flesh Merchant, The (Wild and Wicked, The)",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Zatoichi in Desperation (Shin Zatôichi monogatari: Oreta tsue) (Zatôichi 24)",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Gloria",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Bright Lights",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Kinbaku",
+        "id": 2,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Great Race, The",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Just Add Water",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "D.L. Hughley: Reset",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Motel, The",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Punk Syndrome, The (Kovasikajuttu)",
+        "id": 3,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Bogowie",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Stunt Squad",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Doctor Who",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Great Waltz, The",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "content": "Pearl Jam Twenty",
+        "id": 4,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Shades of Ray",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Leo the Last",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "content": "Idiocracy",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Goliyon Ki Raasleela Ram-Leela",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Yertle the Turtle and Other Stories",
+        "id": 5,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Play Dirty",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Nightmare Castle (Amanti d'oltretomba) (Lovers from Beyond the Tomb) (Faceless Monster, The)",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Memory Lane",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "House of the Dead, The",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }, {
+    "id": 5,
+    "title": "Brooklyn Rules",
+    "password": "6178k&l",
+    "description": "Bugby",
+    "lsQuizz": [
+      {
+        "content": "Batman Unmasked: The Psychology of the Dark Knight",
+        "id": 1,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Food Matters",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Nobody's Fool",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "American Gigolo",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Topaze",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Pygmalion",
+        "id": 2,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Crystal Lake Memories: The Complete History of Friday the 13th",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "Middle of Nowhere",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Pleasure Seekers, The",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Pusher",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Superman Unbound",
+        "id": 3,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Man with an Apartment (Czlowiek z M-3)",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Gingerbread Man, The",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Bad Taste",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "content": "Group Sex",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Hector and the Search for Happiness",
+        "id": 4,
+        "isMutiple": true,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Presumed Guilty (Presunto culpable)",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "content": "Tracers",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "content": "Sayonara",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Tainted",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "content": "Music for One Apartment and Six Drummers",
+        "id": 5,
+        "isMutiple": false,
+        "answer": [
+          {
+            "id": 1,
+            "content": "Beauty and the Beast",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "content": "It Came from Hollywood",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "content": "Page One: Inside the New York Times",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "content": "Gattaca",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }]
