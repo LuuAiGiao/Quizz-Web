@@ -18,14 +18,8 @@
 }
 
 .timer {
-  left: 50px;
-  text-align: right;
   position: fixed;
 }
-
-/* .group-quizz {
-  justify-content: center;
-} */
 
 .App-logo {
   height: 40vmin;

@@ -1,17 +1,33 @@
 import React, { useEffect, useState } from 'react'
 import Quizz from '../quizz.json'
 import { Button, Card, CardContent, Dialog, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
-export default function Question({ quizId, isTimeUp }) {
-  console.log(quizId)
+export default function Question({ quizId, isTimeUp, countDown, setCountDown }) {
+  // console.log(quizId)
   const selectedQuiz = Quizz.find((quiz) => quiz.id === parseInt(quizId.id));
+
+  const shuffleQuestions = (questions) => {
+    const shuffled = [...questions]; 
+    shuffled.sort(() => Math.random() - 0.5);
+    return shuffled;
+  };
+
+  const [shuffledQuestions, setShuffledQuestions] = useState(shuffleQuestions(selectedQuiz.lsQuizz));
+
   const [userAnswers, setUserAnswers] = useState({});
   const [showPopup, setShowPopup] = useState(false);
   const [score, setScore] = useState(0);
 
+  const nav = useNavigate();
+
   const handleSubmit = () => {
-    setShowPopup(true);
+    const time = countDown;
+    setCountDown(30);
+    localStorage.setItem('countDown', 30);
+    nav(`/quiz/${quizId.id}/result`, { state: { score: score, quizId: quizId.id, time: time } });
   };
+
 
   const handleAnswerChange = (questionId, answerId) => {
     setUserAnswers((prevAnswers) => ({
@@ -32,12 +48,12 @@ export default function Question({ quizId, isTimeUp }) {
   }, [isTimeUp])
 
   useEffect(() => {
-      const restoredAnswers = JSON.parse(localStorage.getItem('userAnswers'));
-      // console.log("data luu o day ne: ", restoredAnswers);
-      if (restoredAnswers) {
-        setUserAnswers(restoredAnswers);
-      }
-    
+    const restoredAnswers = JSON.parse(localStorage.getItem('userAnswers'));
+    // console.log("data luu o day ne: ", restoredAnswers);
+    if (restoredAnswers) {
+      setUserAnswers(restoredAnswers);
+    }
+
   }, []);
 
   useEffect(() => {
@@ -75,14 +91,15 @@ export default function Question({ quizId, isTimeUp }) {
         <Typography style={{ fontWeight: 'bold' }} variant="h4" gutterBottom>
           {selectedQuiz.title}
         </Typography>
-        {selectedQuiz.lsQuizz.map((quiz) => (
+        {shuffledQuestions.map((quiz, index) => (
+          // {selectedQuiz.lsQuizz.map((quiz) => (
           <div key={quiz.id}>
             <Typography style={{ fontSize: '20px', fontWeight: 'bold', fontStyle: 'italic', marginTop: '60px' }} variant="h5" gutterBottom sx={{ textAlign: 'left' }}>
-              Question {quiz.id}:
+              Question {index + 1}:
             </Typography>
             <Typography sx={{ textAlign: 'left' }} variant="body1">{quiz.content}</Typography>
             <FormControl>
-              
+
               <RadioGroup sx={{ textAlign: 'left' }}>
                 {quiz.answer.map((answer) => (
                   <FormControlLabel
@@ -101,13 +118,7 @@ export default function Question({ quizId, isTimeUp }) {
         ))}
       </CardContent>
       <Button style={{ borderRadius: '20px', width: '120px', marginLeft: '300px' }} onClick={() => handleSubmit()} variant='contained'>Submit</Button>
-      <Dialog open={showPopup}>
-        <div>
-          <h3 style={{ textAlign: 'center', color: 'green' }}>Your score:</h3>
-          <Typography style={{ margin: '0 30px' }} variant="h6">Số câu trả lời đúng: {score}</Typography>
-          <Button style={{ margin: '20px 30px' }} onClick={closeConfirmDialog} variant='contained'>Cancel</Button>
-        </div>
-      </Dialog>
+
     </Card>
   )
 }

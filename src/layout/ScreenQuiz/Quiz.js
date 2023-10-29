@@ -9,6 +9,13 @@ export default function Quiz() {
   const [currentQuizId, setCurrentQuizId] = useState(null);
   const [isPasswordCorrect, setIsPasswordCorrect] = useState(false);
 
+  // const apiQuizz = 'https://server.nglearns.com/quizz/285498f5-3486-434d-a459-bedb6bcea7ce';
+  // const lsQuizz = fetch(apiQuizz)
+  // .then(res => res.json())
+  // .then(data => data.lsQuizz)
+
+  // console.log("list quizz: ", lsQuizz);
+
   const handleQuizClick = (quizId) => {
     const quiz = Quizz.find((quiz) => quiz.id === quizId);
     if (quiz) {
