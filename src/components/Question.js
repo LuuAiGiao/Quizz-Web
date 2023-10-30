@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Quizz from '../quizz.json'
-import { Button, Card, CardContent, Dialog, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import { Button, Card, CardContent, Dialog, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, Typography } from '@mui/material';
+import Quizz from '../quizz.json'
 
 export default function Question({ quizId, isTimeUp, countDown, setCountDown }) {
   // console.log(quizId)
@@ -49,7 +49,6 @@ export default function Question({ quizId, isTimeUp, countDown, setCountDown }) 
 
   useEffect(() => {
     const restoredAnswers = JSON.parse(localStorage.getItem('userAnswers'));
-    // console.log("data luu o day ne: ", restoredAnswers);
     if (restoredAnswers) {
       setUserAnswers(restoredAnswers);
     }
@@ -92,7 +91,6 @@ export default function Question({ quizId, isTimeUp, countDown, setCountDown }) 
           {selectedQuiz.title}
         </Typography>
         {shuffledQuestions.map((quiz, index) => (
-          // {selectedQuiz.lsQuizz.map((quiz) => (
           <div key={quiz.id}>
             <Typography style={{ fontSize: '20px', fontWeight: 'bold', fontStyle: 'italic', marginTop: '60px' }} variant="h5" gutterBottom sx={{ textAlign: 'left' }}>
               Question {index + 1}:
